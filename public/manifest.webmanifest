@@ -1,0 +1,16 @@
+{
+  "name": "Hushcup",
+  "short_name": "Hushcup",
+  "description": "Caffeine, quieted. See what's in your body and how it will affect sleep.",
+  "start_url": "./#/today",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF8FF",
+  "theme_color": "#6D4AE8",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
