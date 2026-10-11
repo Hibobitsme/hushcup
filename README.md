@@ -14,9 +14,13 @@ npm run preview    # serve dist/ (service worker is only registered in builds)
 
 Regenerate app icons after changing the art: `node scripts/make-icons.mjs`.
 
+## Live app
+
+https://hibobitsme.github.io/hushcup/ is rebuilt and published by GitHub Pages on every push to `main` (`.github/workflows/deploy.yml`).
+
 ## Install on iPhone
 
-Host `dist/` on any HTTPS static host, open it in Safari, then Share → Add to Home Screen. Reminders need the Home Screen app (iOS 16.4+).
+Open the live app in Safari, then Share → Add to Home Screen. Reminders need the Home Screen app (iOS 16.4+).
 
 ## Where things are
 
